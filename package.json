@@ -1,0 +1,26 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aadithyanas/Chat_App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Aadithyanas/Chat_App/issues"
+  },
+  "homepage": "https://github.com/Aadithyanas/Chat_App#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
